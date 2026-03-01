@@ -27,3 +27,4 @@ jobs:
       run: |
         cd src
         python -m pytest addition.py
+        echo "ran tests successfully"
