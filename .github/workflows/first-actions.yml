@@ -21,10 +21,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest
-        echo "pytest has been installed"
+        
 
     - name: Run tests
       run: |
         cd src
         python -m pytest addition.py
-        echo "ran tests successfully"
+        
